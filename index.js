@@ -107,7 +107,7 @@ app.get('/news/:newspaperId', (req, res) => {
     const newspaperAddress = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].address
     const newspaperBase = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].base
     //console.log(newspaperAddress)
-    await axios.get(newspaperAddress)
+     axios.get(newspaperAddress)
         .then(response => {
             const html = response.data
             const $ = cheerio.load(html)
