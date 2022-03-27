@@ -107,6 +107,7 @@ app.get('/news/:newspaperId', (req, res) => {
     const newspaperAddress = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].address
     const newspaperBase = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].base
     //console.log(newspaperAddress)
+     
      axios.get(newspaperAddress)
         .then(response => {
             const html = response.data
@@ -144,5 +145,5 @@ app.get('/news/:newspaperId', (req, res) => {
 //      res.json(articles)
 //  }).catch((err) =>console.log(err))
 
-
-app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+app.listen(PORT,()=>(console.log(`Server is running on http://localhost:${PORT}`)));
+//app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
