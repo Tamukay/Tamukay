@@ -145,5 +145,5 @@ app.get('/news/:newspaperId', (req, res) => {
 //      res.json(articles)
 //  }).catch((err) =>console.log(err))
 
-app.listen(PORT,()=>(console.log(`Server is running on http://localhost:${PORT}`)));
-//app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+
+app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
