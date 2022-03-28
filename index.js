@@ -8,11 +8,7 @@ const res = require('express/lib/response')
 
 const app = express()
 const newspapers = [
-    {
-        name: 'cityam',
-        address: 'https://www.cityam.com/london-must-become-a-world-leader-on-climate-change-action/',
-        base: ''
-    },
+   
     {
         name: 'thetimes',
         address: 'https://www.thetimes.co.uk/environment/climate-change',
@@ -28,7 +24,13 @@ const newspapers = [
         address: 'https://www.telegraph.co.uk/climate-change',
         base: 'https://www.telegraph.co.uk',
     },
+    {
+        name: 'nyt',
+        address: 'https://www.nytimes.com/international/section/climate',
+        base: ''
+    },
     
+
    
 ]
 const articles = []
