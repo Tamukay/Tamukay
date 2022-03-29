@@ -68,9 +68,7 @@ const newspapers = [
         name: 'nyp',
         address: 'https://www.nypost.com/tag/climate-change/',
         base: ''
-    }
-
-   
+    } 
 ]
 const articles = []
 newspapers.forEach(newspaper => {
