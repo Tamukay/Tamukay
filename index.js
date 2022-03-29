@@ -24,17 +24,9 @@ const newspapers = [
         address: 'https://www.telegraph.co.uk/climate-change',
         base: 'https://www.telegraph.co.uk',
     },
-    {
-        name: 'nyt',
-        address: 'https://www.nytimes.com/international/section/climate',
-        base: ''
-    },
-    {
-        name: 'latimes',
-        address: 'https://www.latimes.com/environment',
-        base: ''
-    }
    
+   
+    
 ]
 const articles = []
 newspapers.forEach(newspaper => {
