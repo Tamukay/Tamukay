@@ -34,37 +34,7 @@ const newspapers = [
         address: 'https://www.latimes.com/environment',
         base: ''
     },
-    {
-        name: 'snh',
-        address: 'https://www.snh.com.av/environment/climate-change',
-        base: 'https://www.snh.com.av'
-    },
-    {
-        name: 'un',
-        address: 'https://www.un.org/climatechange',
-        base: ''
-    },
-    {
-        name: 'bbc',
-        address: 'https://www.bbc.co.uk/news/science and environment',
-        base: 'https://www.bbc.co.uk'
-    },
-  
-    {
-        name: 'sun',
-        address: 'https://www.thesun.co.uk/topic/climate-change-environment',
-        base: ''
-    },
-    {
-        name: 'dn',
-        address: 'https://www.bbc.dailymail.uk/news/climate-change-global-warming/index.html',
-        base: ''
-    },
-    {
-        name: 'nyp',
-        address: 'https://www.nypost.com/tag/climate-change/',
-        base: ''
-    } 
+   
 ]
 const articles = []
 newspapers.forEach(newspaper => {
