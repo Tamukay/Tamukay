@@ -33,7 +33,7 @@ const newspapers = [
         name: 'latimes',
         address: 'https://www.latimes.com/environment',
         base: ''
-    },
+    }
    
 ]
 const articles = []
